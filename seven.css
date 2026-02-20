@@ -1,0 +1,23 @@
+body {
+    font-family: Arial;
+    background-color: lightblue;
+    text-align: center;
+    margin-top: 100px;
+}
+
+input {
+    padding: 8px;
+    margin: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}

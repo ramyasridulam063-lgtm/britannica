@@ -1,0 +1,62 @@
+body {
+    background-color: aliceblue;
+}
+
+.picture img {
+    border-radius: 400;
+    width: 150px;
+}
+
+.heading {
+    color: brown;
+    position: absolute;
+    top: 5px;
+    left: 155px;
+}
+
+.head {
+    position: absolute;
+    top: 50px;
+    left: 185px;
+}
+
+.id {
+    background-color: tan;
+    color:azure;
+    text-align:center;
+
+    
+}
+
+.but {
+    background-color: tan;
+    margin-left: 650px;
+    transition:transform 0.5s;
+
+}
+.but:hover{
+    transform:scale(1.2);
+}
+.order {
+    background-color: darkgrey;
+    margin-left: 500px;
+    width: 500px;
+    height: 100px;
+   
+    
+}
+
+
+.line {
+    border-width: 100px;
+    
+    
+}
+input{
+    display:block;
+    margin: 0 auto;
+}
+.label
+{
+    text-align:center;
+}

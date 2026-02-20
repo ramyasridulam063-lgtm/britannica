@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+      .img_1
+      {
+        position:absolute;
+        top:50px;
+        left:100px;
+      }
+      .list
+      {
+        position:absolute;
+        top:50px;
+        left:400px;
+        gap:20px;
+        display:flex;
+        list-style-type:none;
+      }
+      .img_2
+      {
+        position:absolute;
+        top:150px;
+        width:30vw;
+        height:300px;
+      }
+      .overlap
+      {
+        position:absolute;
+        top:10%;
+        left:-10%;
+        width:450px;
+        height:150px;
+        transform:translate(100px,50px);
+        color:black;
+        background-color:white;
+        font-size:bold;
+        padding:10px;
+
+      }
+      .image_1
+      {
+        position:absolute;
+        top:670px;
+        left:450px;
+      }
+
+    </style>
+    <div>
+        <img class="img_1"src="https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png">
+        <dl class="list">
+            <li>Microsoft 365</li>
+            <li>Teams</li>
+            <li>Copilot</li>
+            <li>Windows</li>
+            <li>Surface</li>
+            <li>Xbox</li>
+            <li>Support</li>
+        </dl>
+    </div>
+    <div>
+        <div class="img_2">
+            <img  src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-AI-11Ed-Sapphire-MC001-3000x1682:VP5-1920x600" width="1420px;" height="500px;">
+            <div class="overlap">
+                 <h2>Meet Surface Pro</h2>
+                 <p>This laptop's unrivalled flexibility and AI features like Live Captions <br>
+                    and Cocreator, enable you to do more than you ever imagined.</p>
+                 <button style="color:blue">Learn more</button>
+            </div>
+        </div>
+    </div>
+    <div>
+      <img class="image_1" src="image.png">
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+.skills
+{
+    text-align:center;
+}
+.sk
+{
+    display:flex;
+    text-align:center;
+    font-size:15px;
+    margin:20px;
+    width:200px;
+    height:100px;
+    border:none;
+    border-radius:4px;
+}
+.sk-1
+{
+    background-color:black;
+    color:white;
+}
+.sk-2
+{
+    background-color:white;
+    border:none;
+    border-radius:6px;
+    text-align:center;
+    margin:20px;
+    width:180;
+    height:40px;
+}
+.sk-2:hover{
+    background-color:#425342;
+}
+.sk-3
+{
+    background-color:white;
+    border:none;
+    border-radius:6px;
+    text-align:center;
+    margin:20px;
+    width:180;
+    height:40px;
+}
+.sk-3:hover{
+    background-color:#425342;
+}
