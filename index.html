@@ -1,255 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sri vasavi</title>
+    <title>Document</title>
 </head>
-
 <body>
     <style>
-        .logo img {
-            width: 150px;
+        .logo
+        {
+            position:absolute;
+            left:450px;
         }
-
-        .logo {
-            position: absolute;
-            width: 100vw;
-            height: 20vh;
+        .name
+        {
+            position:absolute;
+            left:510px;
         }
-
-        .logo h3 {
-            position: absolute;
-            left: 150px;
-            top: -10px;
+        .button_1
+        {
+            position:absolute;
+            left:1200px;
+            background-color:cornflowerblue;
+            top:44px;
         }
-
-        .logo h2 {
-            position: absolute;
-            top: -10px;
-            left: 450px;
-            font-size: large;
+        .button_2
+        {
+            position:absolute;
+            left:1300px;
+            background-color:antiquewhite;
+            top:44px;
         }
-
-        .logo h1 {
-            position: absolute;
-            top: 10px;
-            left: 150px;
-        }
-
-        .logo p {
-            position: absolute;
-            top: 50px;
-            left: 150px;
-        }
-
-        .image {
-            position: absolute;
-            top: 120px;
-            left: 0px;
-            width: 100vw;
-            height: 30vh;
-        }
-
-        .image img {
-            width: 100vw;
-            height: 30vh;
-
-        }
-
-        .emp {
-            border: 2px solid lightgray;
-            width: 300px;
-            height: 250px;
-            position: absolute;
-            top: 420px;
-            left: 300px;
+        .form
+        {
+            position:absolute;
+            width:100%;
+            max-width:500px;
+            padding:10px;
+            top:80px;
+            left:400px;
             border-radius: 20px;
         }
-
-        .b1 {
-            background-color: lightskyblue;
-            border-radius: 20px;
-            position: absolute;
-            left: 200px;
-            transition: transform 0.5s;
+        .button_3
+        {
+            position:absolute;
+            left:25px;
+            background-color:deepskyblue;
+            top:150px;
+            width:150px;
+            border-radius:20px;
         }
-
-        .empl {
-            text-align: center;
-            font-size: x-large;
-            background-color: rgb(83, 170, 246);
-            padding: 20px;
+        .list
+        {
+            position:absolute;
+            display:flex;
+            gap:40px;
+            top:170px;
+            font-size:18px;
+            list-style-type:none;
         }
-
-        .stu {
-
-            border: 2px solid lightgray;
-            width: 300px;
-            height: 250px;
-            position: absolute;
-            top: 420px;
-            left: 800px;
-            border-radius: 20px;
+        .list_2
+        {
+             position:absolute;
+            display:flex;
+            gap:40px;
+            top:200px;
+            font-size:18px;
+            list-style-type:none;
+            color:cornflowerblue;
         }
-
-        .b2 {
-            background-color: lightskyblue;
-            border-radius: 20px;
-            position: absolute;
-            left: 200px;
-            transition: transform 0.5s;
+        .feb
+        {
+            color:cornflowerblue;
+            position:absolute;
+            top:230px;
         }
-
-        .stud {
-            text-align: center;
-            font-size: x-large;
-            background-color: rgb(83, 170, 246);
-            padding: 20px;
+        .can
+        {
+            position:absolute;
+            top:260px;
+            
         }
-
-        .emp_form {
-            color: red;
+        .para
+        {
+            position:absolute;
+            top:310px;
+            font-size:28px;
         }
-
-        .stu_form {
-            color: red;
+        .img_2
+        {
+            position:absolute;
+            top:550px;
+            left:200px;
+            border-radius:10px;
         }
-
-        .main {
-            background-color: aliceblue;
-            height: 320px;
-            width: 1000px;
-            position: absolute;
-            left: 200px;
-            top: 390px;
+        .time
+        {
+            position:absolute;
+            top:950px;
+            color:cornflowerblue;
         }
-
-        .main p {
-            text-align: center;
+        .para_1
+        {
+            position:absolute;
+            top:980px;
+        }
+        .img_3
+        {
+            position:absolute;
+            top:1030px;
+            left:200px;
+            border-radius:10px;
+        }
+        .img_4
+        {
+             position:absolute;
+            top:1030px;
+            left:650px;
+            border-radius:10px;
+        }
+        .the
+        {
+            position:absolute;
+            top:1230px;
+            color:cornflowerblue;
+            left:90px;
+        }
+        .para_2{
+            position:absolute;
+            top:1255px;
+            left:90px;
+        }
+        .how
+        {
+            position:absolute;
+            top:1230px;
+            color:cornflowerblue;
+            left:650px;
+        }
+        .para_3
+        {
+            position:absolute;
+            top:1255px;
+            left:650px;
+        }
+        .dis
+        {
+            position:absolute;
+            top:1290px;
+        }
+        .what
+        {
+            position:absolute;
+            top:1340px;
+            color:cornflowerblue;
+        }
+        .strat
+        {
+            position:absolute;
+            top:1340px;
+            left:650px;
+            color:cornflowerblue;
+        }
+        .files
+        {
+            position:absolute;
+            top:1400px;
+        }
+        .para_4
+        {
+            position:absolute;
+            top:1440px;
             font-size: 20px;
-            position: absolute;
-            top: 270px;
-            left: 260px;
         }
-
-        .para {
-            text-align: center;
-            margin-top: 300px;
+        .space
+        {
+            position:absolute;
+            top:1490px;
+            color:cornflowerblue;
         }
-
-        .b1:hover {
-            transform: scale(1.2);
-        }
-
-        .b2:hover {
-            transform: scale(1.2);
-        }
-
-        .pic_emp {
-            position: absolute;
-            width: 80px;
-            height: 80px;
-        }
-
-        .pic_stud {
-            position: absolute;
-            width: 80px;
-            height: 80px;
-        }
-
-        p {
-            position: absolute;
-            top: 700px;
-            left: 380px;
-            color: royalblue;
-
+        .para_5
+        {
+            position:absolute;
+            top:1530px;
+            font-size:24px;
 
         }
-
-        .foot {
-            position: absolute;
-            top: 730px;
-            left: 550px;
-            color: royalblue;
-
-        }
-
-        .footer {
-            background-color: rgb(83, 170, 246);
+        .img_5
+        {
+            position:absolute;
+            top:1700px;
+            width:1385px;
+            height:600px;
+            border-radius:10px;
 
         }
-
-        .nba {
-            position: absolute;
-            top: 10px;
-            left: 1000px;
+        .button_1:hover
+        {
+            transform:scale(1.2);
         }
-
-        .nba1 {
-            position: absolute;
-            top: 10px;
-            left: 1150px
+        .button_2:hover
+        {
+            transform:scale(1.2);
         }
+        .button_3:hover
+        {
+            transform:scale(1.2);
+        }
+        .x
+        {
+            position:absolute;
+            top:2300px;
+            color:cornflowerblue;
+        }
+        
     </style>
-    <div class="logo">
-        <img src="http://www.srivasaviengg.ac.in/stuver/css/vasavi_logo.png">
-        <h3><span style="color:cornflowerblue">ESTD:</span><span style=color:red>2001</span></h3>
-        <h2><span style="color:cornflowerblue">COUNSELLING CODE:</span><span style="color:red">VSVT</span></h3>
-            <h1><span style="color:forestgreen">SRI VASAVI ENGINEERING COLLEGE</span><span
-                    style="color:red">(AUTONOMOUS)</span></h1>
-            <P class="po"><span style="color:red">sponsored by:</span>SRI VASAVI EDUCATIONAL
-                SOCIETY,website:www.srivasaviengg.ac.in<br>
-                Pedatadepalli,Tadepalligudem-534101,W.G Dist,(A.P.)</p>
-            <img class="nba" src="https://tse1.mm.bing.net/th/id/OIP.ZA6tSS4o11eJKgyyzGBAtQHaHa?pid=Api&P=0&h=180"
-                width="40px" height="70px">
-            <img class="nba1" src="nba.png">
+    <div class="first_div">
+    <img class="logo" src="https://cdn.britannica.com/mendel/eb-logo/MendelNewThistleLogo.png">
+    <h1 class="name"> Britannica</h1>
+    <button class="button_1">SUBSCRIBE</button>
+    <button class="button_2">Login</button>
+    <form class="form_1">
+        <input type="search" class="form" placeholder="search britannica...">
+    </form>
+    <button class="button_3">Ask the Copilot</button>
+    <dl class="list">
+        <li>Games & Quizzes</li>
+        <li>History & Society</li>
+        <li>Science & Tech</li>
+        <li>Biographies</li>
+        <li>Animals & Nature</li>
+        <li>Geography & Travel</li>
+        <li>Arts & Culture</li> 
+        <li>Procon</li>
+        <li>Money</li>
+        <li>Videos</li>
+    </dl>
     </div>
-    <div class="image">
-        <img src="college.png">
+    <div>
+    <dl class="list_2">
+        <li>TRENDING    |</li>
+        <li>Epstein Files    |</li>
+        <li>Government Shutdown    |</li>
+        <li>Savannah Guthire    |</li>
+        <li>Elon Musk      |</li>
+        <li>Disney     |</li>
+        <li>Which country has the most Olympic medals?</li>
+    </dl>
+    <h3 class="feb">February 4,2026</h3>
+    <h1 class="can">The Fight Aganist Cancer</h1>
+    <p class="para">Today is <span style="color:cornflowerblue">World Cancer Day,</span> an observance that seeks to increase awareness of the disease, which has become an<br>
+         exceedingly important consideration in the 21st century. Although there have been <span style="color:cornflowerblue">numerous advancements</span> in the<br>
+          understanding, <span style="color:cornflowerblue">diagnosis, and treatment of cancer</span>—factors that should contribute to the decline of the disease—the<br>
+           number of new cases diagnosed each year has continued to increase. Yet the global cancer burden could be reduced by as<br> much as 30 to 50 percent through <span style="color:cornflowerblue">prevention strategies</span>, particularly in the <span style="color:cornflowerblue">avoidance of known risk factors</span>, according to<br>
+            the <span style="color:cornflowerblue">World Health Organization</span>.</p>
+    <img  class="img_2"src="https://cdn.britannica.com/61/256461-050-5ECF52E8/Immunotherapy-treatment-preparation-France.jpg?w=727&h=410&c=crop&q=80">
+    <h3 class="time">Timeline:The History of Cancer Research</h3>
+    <p class="para_1">Image:&copy Burger/Science Source</p>
+    <img  class="img_3"src="https://cdn.britannica.com/99/202199-138-26C64164/Human-Genome-Project-international-collaboration-1990-2003.jpg?w=354&h=200&c=crop&q=80">
+    <img class="img_4" src="https://cdn.britannica.com/65/186365-138-553B43F7/sound-waves-cancer-cells-blood.jpg?w=354&h=200&c=crop&q=80">
+    <h3 class="the">The Impact of the Human Genome Project on Cancer Research</h3>
+    <p class="para_2">Image:Encyclopedia Britannica,Inc.</p>
+    <h3 class="how">How Researchers Use Sound Waves to Separate Cancerous Cells From Blood</h3>
+    <p class="para_3">Image:&copy Massachusetts Institute of Technology</p>
+    <h2 class="dis">Discover More</h2>
+    <h3 class="what">What Are the Main Causes of Cancer?</h3>
+    <h3 class="strat">Strategies for Cancer Prevention</h3>
     </div>
-    <div class="main">
-        <p>click <a href="http://www.sves.org.in/ecap/olpaymentlogin.aspx">here</a>to online payment without login</p>
+    <div class="div_3">
+        <h2 class="files">The X Files</h2>
+        <p class="para_4"> <span style="color:cornflowerblue">Elon Musk </span>is merging two of his highest-profile ventures into one big company.</p>
+        <h3 class="space">SpaceX buys xAI</h3>
+        <p class="para_5">Musk is consolidating aerospace firm<span style="color:cornflowerblue"> SpaceX</span> and artificial intelligence company <span style="color:cornflowerblue">xAI</span>, the billionaire <span style="color:cornflowerblue">announced on Monday</span>. Terms of<br>
+             SpaceX’s purchase of xAI were not disclosed. The combined company also includes the social media platform  <span style="color:cornflowerblue">X</span>, which Musk sold in March<br>
+              2025 to xAI in an all-stock deal that valued X at $33 billion. SpaceX is the first private company to successfully launch and return a <span style="color:cornflowerblue">spacecraft</span><br>
+               from Earth orbit and the first to launch a crewed spacecraft and dock it with the <span style="color:cornflowerblue">International Space Station</span> (via the <span style="color:cornflowerblue">Dragon</span> capsule,<br>
+                pictured below)</p>
+        <img class="img_5" src="https://cdn.britannica.com/58/171658-004-A8E377B1/Dragon-capsule-SpaceX-docking-spacecraft-International-Space-May-25-2012.jpg">
+        <h3 class="x">X investigated in France</h3>
+        
     </div>
-    <div class="emp">
-        <h3 class="empl">Employee Login</h3>
-        <form class="emp_form">
-            <label>Username:</label>
-            <input type="text">
-            <br>
-            <br>
-            <label>Password:</label>
-            <input type="password">
-            <br>
-            <br>
-        </form>
-        <button class="b1">Login</button>
-        <img class="pic_emp" src="employee.png">
-
-    </div>
-    <div class="stu">
-        <h3 class="stud">Student Login</h3>
-        <form class="stu_form">
-            <label>Username:</label>
-            <input type="text">
-            <br>
-            <br>
-            <label>Password:</label>
-            <input type="password">
-            <br>
-            <br>
-        </form>
-        <button class="b2">Login</button>
-        <img class="pic_stud" src="student.png">
-    </div>
-    <div class="footer">
-        <p><b>copyright &copy All rights reserved by SRI VASAVI ENGINEERING COLLEGE(Autonomous),Tadepalligudem</b><br>
-            Powered by Webpros Solution Pvt.Ltd..,Visakhapatnam</p>
-    </div>
-
-
-
 </body>
-
 </html>
