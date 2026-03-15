@@ -1,18 +1,36 @@
-<!DOCTYPE html>
 <html>
-<head>
-    <title>Student Result App</title>
-    <link rel="stylesheet" href="seven.css">
-</head>
-<body>
+    <head>
+        <title>Java Script</title>
+    </head>
+    <body>
+        <div id="div">
+        <h1 id="first heading">Hello Ramya</h1>
+        <h2 id="second heading">Java Script is a programming language and also an scripting language</h2>
+        <p class="first paragraph">I am studying in sri vasavi engineering college</p>
+        <p class="second paragraph">I am from CSE-C section</p>
+        <p class="third paragraph">I am currently pursuing my second year of my btech</p>
+        <button id="button-1" onclick="showMe()">click me</button>
+        </div>
+        <script>
+            document.getElementById("first heading").innerHTML="WELCOME TO JAVA SCRIPT";
+            document.getElementById("second heading").innerHTML="JAVA SCRIPT IS EASY TO LEARN";
+            document.getElementsByClassName("first paragraph")[0].innerHTML="I love my college";
+            document.getElementsByTagName("p")[1].innerHTML="I love my college";
+             
+            let newElement=document.createElement("h3");
+            newElement.innerHTML="this is the third heading tag"
+            document.body.appendChild(newElement)
 
-    <h1>Student Result Checker</h1>
+          
+            function showMe()
+            {
+                div.styel.backgroundColor="red";
+            }
 
-    <input type="number" id="marks" placeholder="Enter Marks" />
-    <button onclick="checkResult()">Check Result</button>
 
-    <p id="result"></p>
+            
 
-    <script src="seven.js" defer></script>
-</body>
+
+        </script>
+    </body>
 </html>
